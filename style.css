@@ -1,0 +1,65 @@
+/* Definição de estilos para o cabeçalho da página */
+h1 {
+	font-size: 2em;
+	text-align: center;
+	margin-top: 20px;
+    color: #fff;
+}
+
+h5 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 5px;
+}
+#div{
+    display:flex   ;
+    width: 100%;
+}
+
+.button{
+    width: 50%;
+}
+
+/* Definição de estilos para o campo de texto */
+textarea {
+	display: block;
+	margin: 10px auto;
+    margin-top: 0px;
+	width: 60%;
+	padding: 10px;
+	border: 2px solid #ccc;
+	border-radius: 5px;
+	font-size: 1em;
+}
+
+/* Definição de estilos para os botões */
+button {
+    display:block;
+	margin: 10px auto;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	background-color: #007bff;
+	color: #fff;
+	font-size: 1em;
+	cursor: pointer;
+}
+
+.cod{
+    margin-right: 1%;
+}
+
+.decod{
+    margin-left: 1%;
+}
+
+/* Definição de estilos para o botão de hover */
+button:hover {
+	background-color: #0062cc;
+}
+
+/* Definição de estilos para a página como um todo */
+body {
+	background-color: #0e2d19;
+	font-family: Arial, sans-serif;
+}
